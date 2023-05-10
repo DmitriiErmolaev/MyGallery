@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.header {
+  background-color: rgb(236, 245, 195);
+  box-shadow: 0 1px 5px 1px  rgba(0, 0, 0, 0.162);
+  height: 105px;
+}
+.header__inner {
+    position:relative;
+
+    .logo__img {
+        width:100px;
+    }
+    .title {    
+        position: absolute;
+        left: 130px;
+        bottom: 10px;
+        font: 3rem 'Dancing Script', cursive;
+        color: rgb(0, 0, 0);
+    }
+}

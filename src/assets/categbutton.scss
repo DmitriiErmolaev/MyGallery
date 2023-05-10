@@ -1,0 +1,13 @@
+.menu__item {
+  box-shadow:0 0 5px 1px rgba(0, 0, 0, 0.371);
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgb(248, 235, 179);
+  margin-right: 50px;
+  font-weight: 700;
+  
+  &:hover, .active {
+      cursor:pointer;
+      background-color: rgb(235, 201, 53);;
+  }
+}
